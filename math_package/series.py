@@ -12,7 +12,7 @@ def lucas(n):
   elif n == 1:
     return 1
   else:
-    return fibonacci(n-1) + fibonacci (n-2)
+    return lucas (n-1) + lucas (n-2)
 
 
 
