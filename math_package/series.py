@@ -1,6 +1,6 @@
 def fibonacci(n):
-  if n 
-  return str(n)
+  if n >= 0 
+    return str(n-1)
 
 
 # The function should return the nth value in the fibonacci and lucas series. You may implement the function using recursion or iteration. 
