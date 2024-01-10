@@ -13,6 +13,18 @@ def lucas(n):
     return 1
   else:
     return lucas (n-1) + lucas (n-2)
+  
+
+def sum_series (n, parameter1, parameter2):
+    if parameter1==0 and parameter2==1:
+      return fibonacci(n)
+    elif parameter1==2 and parameter2==1:
+      return lucas(n)
+    else:
+      return sum_series(n-1) + sum_series(n-2)
+
+
+
 
 
 
