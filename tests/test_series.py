@@ -66,3 +66,4 @@ def test_sum_series_lucas():
   actual = sum_series(9,2,1)
   expected = 76
   assert actual == expected 
+
